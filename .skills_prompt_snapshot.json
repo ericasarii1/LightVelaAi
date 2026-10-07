@@ -1,0 +1,531 @@
+{
+  "version": 2,
+  "manifest": {
+    "website-builder/SKILL.md": [
+      1791336127543374238,
+      25742,
+      795160,
+      1791336127545374225
+    ],
+    "note-taking/DESCRIPTION.md": [
+      1789984720000000000,
+      146,
+      786827,
+      1791327094681606299
+    ],
+    "apple/DESCRIPTION.md": [
+      1789984720000000000,
+      137,
+      786829,
+      1791327094682606299
+    ],
+    "web/DESCRIPTION.md": [
+      1789984720000000000,
+      137,
+      786833,
+      1791327094683606298
+    ],
+    "media/DESCRIPTION.md": [
+      1789984720000000000,
+      139,
+      786835,
+      1791327094683606298
+    ],
+    "autonomous-ai-agents/DESCRIPTION.md": [
+      1789984720000000000,
+      211,
+      795437,
+      1790184130866961370
+    ],
+    "autonomous-ai-agents/hermes-agent/SKILL.md": [
+      1789984720000000000,
+      13183,
+      795063,
+      1790184130866961370
+    ],
+    "productivity/DESCRIPTION.md": [
+      1789984720000000000,
+      114,
+      795438,
+      1790184130866961370
+    ],
+    "productivity/weekly-review-planning/SKILL.md": [
+      1789984720000000000,
+      3975,
+      795068,
+      1790184130866961370
+    ],
+    "productivity/google-workspace/SKILL.md": [
+      1789984720000000000,
+      13926,
+      795134,
+      1790184130866961370
+    ],
+    "productivity/powerpoint/SKILL.md": [
+      1789984720000000000,
+      10781,
+      795142,
+      1790184130866961370
+    ],
+    "productivity/product-price-monitor/SKILL.md": [
+      1789984720000000000,
+      4400,
+      795172,
+      1790184130866961370
+    ],
+    "productivity/maps/SKILL.md": [
+      1789984720000000000,
+      6705,
+      795176,
+      1790184130866961370
+    ],
+    "creative/DESCRIPTION.md": [
+      1789984720000000000,
+      116,
+      795439,
+      1790184130866961370
+    ],
+    "creative/humanizer/SKILL.md": [
+      1789984720000000000,
+      34463,
+      795294,
+      1790184130866961370
+    ],
+    "creative/architecture-diagram/SKILL.md": [
+      1789984720000000000,
+      5830,
+      795299,
+      1790184130866961370
+    ],
+    "research/DESCRIPTION.md": [
+      1789984720000000000,
+      179,
+      795440,
+      1790184130866961370
+    ],
+    "research/competitor-news-monitor/SKILL.md": [
+      1789984720000000000,
+      4619,
+      795359,
+      1790184130866961370
+    ],
+    "research/arxiv/SKILL.md": [
+      1789984720000000000,
+      10061,
+      795363,
+      1790184130866961370
+    ],
+    "social-media/DESCRIPTION.md": [
+      1789984720000000000,
+      151,
+      795028,
+      1791327094685606298
+    ],
+    "software-development/test-driven-development/SKILL.md": [
+      1789984720000000000,
+      10300,
+      795385,
+      1790184130866961370
+    ],
+    "software-development/python-debugpy/SKILL.md": [
+      1789984720000000000,
+      13366,
+      795387,
+      1790184130866961370
+    ],
+    "software-development/node-inspect-debugger/SKILL.md": [
+      1789984720000000000,
+      11065,
+      795389,
+      1790184130866961370
+    ],
+    "software-development/hermes-agent-skill-authoring/SKILL.md": [
+      1789984720000000000,
+      14504,
+      795391,
+      1790184130867961364
+    ],
+    "software-development/requesting-code-review/SKILL.md": [
+      1789984720000000000,
+      8781,
+      795393,
+      1790184130867961364
+    ],
+    "software-development/systematic-debugging/SKILL.md": [
+      1789984720000000000,
+      14059,
+      795397,
+      1790184130867961364
+    ],
+    "software-development/spike/SKILL.md": [
+      1789984720000000000,
+      8723,
+      795399,
+      1790184130867961364
+    ],
+    "email/DESCRIPTION.md": [
+      1789984720000000000,
+      101,
+      795442,
+      1790184130867961364
+    ],
+    "email/email-inbox-triage/SKILL.md": [
+      1789984720000000000,
+      5447,
+      795427,
+      1790184130867961364
+    ]
+  },
+  "skills": [
+    {
+      "skill_name": "hermes-agent",
+      "category": "autonomous-ai-agents",
+      "frontmatter_name": "hermes-agent",
+      "description": "Use, configure, theme, extend, and orchestrate Hermes Agent.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": [],
+        "session_platforms": []
+      }
+    },
+    {
+      "skill_name": "architecture-diagram",
+      "category": "creative",
+      "frontmatter_name": "architecture-diagram",
+      "description": "Dark-themed SVG architecture/cloud/infra diagrams as HTML.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": [],
+        "session_platforms": []
+      }
+    },
+    {
+      "skill_name": "humanizer",
+      "category": "creative",
+      "frontmatter_name": "humanizer",
+      "description": "Humanize text: strip AI-isms and add real voice.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": [],
+        "session_platforms": []
+      }
+    },
+    {
+      "skill_name": "email-inbox-triage",
+      "category": "email",
+      "frontmatter_name": "email-inbox-triage",
+      "description": "Triage an inbox: prioritize threads, draft replies safely.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": [],
+        "session_platforms": []
+      }
+    },
+    {
+      "skill_name": "google-workspace",
+      "category": "productivity",
+      "frontmatter_name": "google-workspace",
+      "description": "Gmail, Calendar, Drive, Docs, Sheets via gws CLI or Python.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": [],
+        "session_platforms": []
+      }
+    },
+    {
+      "skill_name": "maps",
+      "category": "productivity",
+      "frontmatter_name": "maps",
+      "description": "Geocode, POIs, routes, timezones via OpenStreetMap/OSRM.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [
+          "terminal"
+        ],
+        "fallback_for_tools": [],
+        "requires_tools": [],
+        "session_platforms": []
+      }
+    },
+    {
+      "skill_name": "powerpoint",
+      "category": "productivity",
+      "frontmatter_name": "powerpoint",
+      "description": "Create, read, edit .pptx decks with python-pptx.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": [],
+        "session_platforms": []
+      }
+    },
+    {
+      "skill_name": "product-price-monitor",
+      "category": "productivity",
+      "frontmatter_name": "product-price-monitor",
+      "description": "Watch product, flight, or listing prices; alert on target.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": [],
+        "session_platforms": []
+      }
+    },
+    {
+      "skill_name": "weekly-review-planning",
+      "category": "productivity",
+      "frontmatter_name": "weekly-review-planning",
+      "description": "Weekly reset: commitments, stalled work, next-week plan.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": [],
+        "session_platforms": []
+      }
+    },
+    {
+      "skill_name": "arxiv",
+      "category": "research",
+      "frontmatter_name": "arxiv",
+      "description": "Search arXiv papers by keyword, author, category, or ID.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": [],
+        "session_platforms": []
+      }
+    },
+    {
+      "skill_name": "competitor-news-monitor",
+      "category": "research",
+      "frontmatter_name": "competitor-news-monitor",
+      "description": "Watch named companies for material news; cited digests.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": [],
+        "session_platforms": []
+      }
+    },
+    {
+      "skill_name": "hermes-agent-skill-authoring",
+      "category": "software-development",
+      "frontmatter_name": "hermes-agent-skill-authoring",
+      "description": "Author in-repo SKILL.md files: frontmatter and structure.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": [],
+        "session_platforms": []
+      }
+    },
+    {
+      "skill_name": "node-inspect-debugger",
+      "category": "software-development",
+      "frontmatter_name": "node-inspect-debugger",
+      "description": "Debug Node.js via --inspect + Chrome DevTools Protocol CLI.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": [],
+        "session_platforms": []
+      }
+    },
+    {
+      "skill_name": "python-debugpy",
+      "category": "software-development",
+      "frontmatter_name": "python-debugpy",
+      "description": "Debug Python: pdb REPL + debugpy remote (DAP).",
+      "platforms": [
+        "linux",
+        "macos"
+      ],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": [],
+        "session_platforms": []
+      }
+    },
+    {
+      "skill_name": "requesting-code-review",
+      "category": "software-development",
+      "frontmatter_name": "requesting-code-review",
+      "description": "Pre-commit review: security scan, quality gates, auto-fix.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": [],
+        "session_platforms": []
+      }
+    },
+    {
+      "skill_name": "spike",
+      "category": "software-development",
+      "frontmatter_name": "spike",
+      "description": "Throwaway experiments to validate an idea before build.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": [],
+        "session_platforms": []
+      }
+    },
+    {
+      "skill_name": "systematic-debugging",
+      "category": "software-development",
+      "frontmatter_name": "systematic-debugging",
+      "description": "4-phase root cause debugging: understand bugs before fixing.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": [],
+        "session_platforms": []
+      }
+    },
+    {
+      "skill_name": "test-driven-development",
+      "category": "software-development",
+      "frontmatter_name": "test-driven-development",
+      "description": "TDD: enforce RED-GREEN-REFACTOR, tests before code.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": [],
+        "session_platforms": []
+      }
+    },
+    {
+      "skill_name": "website-builder",
+      "category": "website-builder",
+      "frontmatter_name": "website-builder",
+      "description": "当用户要求建站、创建网站、部署或发布静态网页，或制作个人主页、产品展示页、落地页、作品集等静态站点时使用。",
+      "platforms": [],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": [],
+        "session_platforms": []
+      }
+    }
+  ],
+  "category_descriptions": {
+    "autonomous-ai-agents": "Skills for spawning and orchestrating autonomous AI coding agents and multi-agent workflows — running independent agent processes, delegating tasks, and coordinating parallel workstreams.",
+    "creative": "Creative content generation — ASCII art, hand-drawn style diagrams, and visual design tools.",
+    "email": "Skills for sending, receiving, searching, and managing email from the terminal.",
+    "media": "Skills for working with media content — YouTube transcripts, GIF search, music generation, and audio visualization.",
+    "note-taking": "Note taking skills, to save information, assist with research, and collab on multi-session planning and information sharing.",
+    "productivity": "Skills for document creation, presentations, spreadsheets, and other productivity workflows.",
+    "research": "Skills for academic research, paper discovery, literature review, domain reconnaissance, market data, content monitoring, and scientific knowledge retrieval.",
+    "social-media": "Skills for interacting with social platforms and social-media workflows — posting, reading, monitoring, and account operations.",
+    "web": "Skills for reaching web content when direct access fails — blocked, paywalled, rate-limited, or bot-walled pages."
+  }
+}

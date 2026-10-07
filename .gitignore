@@ -1,0 +1,11 @@
+.env
+*.token
+*.db*
+*.log
+*.sock
+*.pid
+*.lock
+*.heartbeat
+venv/
+node_modules/
+__pycache__/

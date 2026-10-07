@@ -1,0 +1,7 @@
+{
+  "name": "custom",
+  "base_url": "https://token.lightvela.ai/v1",
+  "api_mode": "chat_completions",
+  "context_length": "",
+  "models": []
+}
